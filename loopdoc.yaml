@@ -1,0 +1,16 @@
+Name: "InputEngine"
+Types:
+    - Input:
+      - field: "up_is_down"
+        type: "bool"
+      - field: "right_is_down"
+        type: "bool"
+      - field: "down_is_down"
+        type: "bool"
+      - field: "left_is_down"
+        type: "bool"
+Ledger: 
+    - InputRecord:
+      - field: "input"
+        type: "Input"
+Static: []
